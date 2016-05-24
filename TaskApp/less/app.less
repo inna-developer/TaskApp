@@ -1,0 +1,24 @@
+@bg: top, #fff 0%, #ccc 100%;
+
+.background-linear-gradient{
+  background: -webkit-linear-gradient(@bg);
+  background: -moz-linear-gradient(@bg);
+  background: -o-linear-gradient(@bg);
+  background: linear-gradient(@bg);
+}
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: linear-gradient(@bg);
+	
+}
+
+
